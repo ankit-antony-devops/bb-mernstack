@@ -23,7 +23,7 @@ spec:
         imagePullPolicy: Always
         resources: {}
         ports:
-          - containerPort: 5000 
+          - containerPort: 80 
 status: {}
 
 ---
@@ -36,7 +36,7 @@ metadata:
     run: webapp
 spec:
   ports:
-  - port: 5000
+  - port: 80
     protocol: TCP
   selector:
     app: webapp
