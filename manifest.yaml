@@ -18,7 +18,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - image: todotfacr.azurecr.io/ankit-antony-devops/bb-mernstack:95
+      - image: todotfacr.azurecr.io/ankit-antony-devops/bb-mernstack:96
         name: webapp
         imagePullPolicy: Always
         resources: {}
